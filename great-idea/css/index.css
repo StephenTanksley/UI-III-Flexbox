@@ -300,7 +300,6 @@ header {
 }
 
 .bottom-container {
-	border: 1px solid black;
 	display: flex;
 	width: auto;
 	margin: 10px;

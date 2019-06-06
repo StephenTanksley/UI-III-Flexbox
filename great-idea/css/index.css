@@ -168,6 +168,7 @@ h5 {
 
 .services-header-img {
 	width: 100%;
+	margin-bottom: 20px;
 }
 
 .services-info-img {
@@ -191,10 +192,10 @@ button {
 	margin: 10px;
 	font-family: Georgia, Times;
 	font-size: 12px;
-	width: 100px;
-	height: 35px;
+	width: 120px;
+	height: 30px;
 	border: 1px black solid;
-	border-radius: 25px;
+	border-radius: 5px;
 
 }
 
@@ -241,12 +242,12 @@ button {
 	border: 1px solid black;
 	height: auto;
 	width: auto;
-	padding: 10px;
+	padding: 5px;
 	display: flex;
 	flex-flow: column;
 	flex-wrap: wrap;
-	background-color: lightgray;
-	margin: 20px;
+	background-color: #f4f3f4;
+	margin: 10px;
 }
 
 
@@ -280,26 +281,29 @@ header {
 	margin: 5px;
 	padding: 10px;
 	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 	border-left: none;
 	border-right: none;
 }
 
 .content-box-container {
-	margin: auto;
+	margin: 0;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-}
-
-.bottom-container {
-	border: 1px solid display: flex;
 }
 
 .bottom-content-container {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
+}
+
+.bottom-container {
+	border: 1px solid black;
+	display: flex;
+	width: auto;
+	margin: 10px;
 }
 
 .same-line-top {
@@ -316,12 +320,13 @@ header {
 	height: 100px;
 	display: inline-block;
 	/*border: solid 5px;*/
+}
 
-	.middle-img {
-		align-content: center;
-		width: 100%;
-		margin: 5px;
-	}
+.middle-img {
+	align-content: center;
+	width: 100%;
+	margin: 5px;
+}
 
 	/*
 .content-display {
@@ -333,20 +338,21 @@ header {
 	padding: 10px;
 }
 */
-	.contact {
-		margin: 5px;
-		padding: 10px;
-		border-left: none;
-		border-right: none;
-	}
+.contact {
+	margin: 5px;
+	padding: 10px;
+	border-left: none;
+	border-right: none;
+}
 
-	footer {
-		display: flex;
-		justify-content: center;
-		margin: 20px;
-	}
+.bulleted-list {
+	list-style-type: square;
+	margin: 20px;
+	width: 50%;
+}
 
-	.bulleted-list {
-		list-style-type: circle;
-		width: 50%;
-	}
+.footer {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
